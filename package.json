@@ -46,8 +46,7 @@
     "format": "prettier --write .",
     "jsdoc": "gulp jsdoc",
     "lint": "echo 'TODO eslint'",
-    "test": "vitest",
-    "test:legacy": "mocha test_legacy/*.*.js"
+    "test": "vitest"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged --concurrent false",
